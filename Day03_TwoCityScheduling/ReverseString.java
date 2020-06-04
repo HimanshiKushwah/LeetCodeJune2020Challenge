@@ -1,6 +1,5 @@
 package Day03_TwoCityScheduling;
 
-import java.util.Arrays;
 
 class ReverseString{
     private void swap(char[] s, int i, int j) {
