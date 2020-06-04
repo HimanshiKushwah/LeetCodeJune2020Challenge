@@ -1,8 +1,8 @@
-package Day3TwoCityScheduling;
+package Day03_TwoCityScheduling;
 
 import java.util.Arrays;
 
-class Day4ReverseString{
+class ReverseString{
     private void swap(char[] s, int i, int j) {
         s[i] = (char)(s[i] ^ s[j]);
         s[j] = (char)(s[i] ^ s[j]);
@@ -16,7 +16,7 @@ class Day4ReverseString{
     
     public static void main(String[] args){
     	char[] ch={'h','e','n','n','a','k'};
-        new Day4ReverseString().reverseString(ch);
+        new ReverseString().reverseString(ch);
         System.out.println(ch);
         
     }

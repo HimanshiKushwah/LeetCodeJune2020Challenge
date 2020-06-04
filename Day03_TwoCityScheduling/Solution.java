@@ -1,4 +1,4 @@
-package Day3TwoCityScheduling;
+package Day03_TwoCityScheduling;
 
 import java.util.Comparator;
 import java.util.Arrays;
